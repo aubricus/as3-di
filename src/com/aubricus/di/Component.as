@@ -18,10 +18,9 @@ package com.aubricus.di
 		public function Component(container:Container, key:String, klass:String)
 		{			
 			_container = container;
-			_key = key;
-			_klass = klass;
-			
-			_ref = getDefinitionByName(_klass) as Class;
+			_key       = key;
+			_klass     = klass;
+			_ref       = getDefinitionByName(_klass) as Class;
 		}
 		
 		public function execute():*
