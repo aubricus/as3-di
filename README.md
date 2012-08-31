@@ -9,3 +9,4 @@ For now you can checkout [Main.as](https://github.com/aubricus/as3-di/blob/maste
 
 ###Known Issues:
 * Calling .configure() directly after a container.get('IFoo') call will casue an error
+    * e.g.: container.get('IFoo').configure({conf:conf});
