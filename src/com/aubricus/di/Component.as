@@ -1,7 +1,5 @@
 package com.aubricus.di
 {	
-	import app.Speak;
-	
 	import flash.utils.getDefinitionByName;
 
 	public class Component
